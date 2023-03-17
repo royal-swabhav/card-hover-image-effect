@@ -1,0 +1,35 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #090909;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+.card{
+    width:150px;
+    height:200PX;
+    background:url('./bg.jpg')
+    center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    transform:
+    rotate(20deg)
+    skew(-20deg,-5deg);
+    transition:
+    translate 0.25s,
+    box-shadow 0.25s;
+    cursor:pointer;
+
+}
+.card:hover{
+    translate:0 -30px;
+    box-shadow:
+    5px 3px rgba(217, 219, 240,0.75 ),
+    10px 6px rgba(194, 69, 69, 0.5),
+    15px 9px rgba(83, 16, 241, 0.70);
+}
